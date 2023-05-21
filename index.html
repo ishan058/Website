@@ -1,0 +1,463 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+	<title>Website</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <link rel="stylesheet" href="styles.css">
+
+    </head>
+    <body>
+
+        <header class="header">
+            <a href="#" class="logo"> <i class="fas fa-shopping-cart"></i> groco</a>
+
+            <nav class="navbar">
+                <a href="#home">home</a>
+                <a href="#features">fearures</a>
+                <a href="#products">products</a>
+                <a href="#categories">categories</a>
+                <a href="#review">review</a>
+                <a href="#blogs">blogs</a>
+            </nav>
+
+            <div class="icons">
+                <div class="fas fa-bars" id="menu-btn"></div>
+                <div class="fas fa-search" id="search-btn"></div>
+                <div class="fas fa-shopping-cart" id="cart-btn"></div>
+                <div class="fas fa-user" id="login-btn"></div>
+            </div>
+
+            <form action="" class="search-form">
+                <input type="serch" id="search-box" placeholder="search here...">
+                <label for="search-box" class="fas fa-search"></label>
+            </form>
+
+            <div class="shopping-cart">
+                <div class="box">
+                    <i class="fas fa-trash"></i>
+                    <img src="img/milk.jpg" alt="">
+                    <div class="content">
+                        <h3>Milk</h3>
+                        <span class="price">Rs 100</span>
+                        <span class="quantity">Qty : 1</span>
+                    </div>
+                </div>
+
+                <div class="box">
+                        <i class="fas fa-trash"></i>
+                        <img src="img/ghee.jpg" alt="">
+                        <div class="content">
+                            <h3>Ghee</h3>
+                            <span class="price">Rs 350</span>
+                            <span class="quantity">Qty : 1</span>
+                        </div>
+                    </div>
+
+                <div class="box">
+                            <i class="fas fa-trash"></i>
+                            <img src="img/panner.jpg" alt="">
+                            <div class="content">
+                                <h3>Panner</h3>
+                                <span class="price">Rs 100</span>
+                                <span class="quantity">Qty : 1</span>
+                            </div>
+                        </div>
+                        <div class="total">Total : Rs 550</div>
+                        <a href="#" class="btn">Checkout</a>    
+            </div>
+
+            <form action="" class="login-form">
+                <h3>login now</h3>
+                <input type="email" placeholder="your email" class="box">
+                <input type="password" placeholder="your password" class="box">
+                <p>forget password <a href="#">click here</a></p>
+                <p>don't have an account <a href="#">create account</a></p>
+                <input type="submit" value="login now" class="btn">               
+            </form>
+        </header>
+<!--header section end-->
+
+<!--home section start-->
+<section class="home" id="home">
+
+    <div class="content">
+        <h3>fresh local farm milk products</h3>
+        <p>we provie you fresh milk product at your door steps</p>
+        <a href="#" class="btn">shop now</a>
+    </div>
+
+</section>
+
+<!--feature section start-->
+<section class="features" id="features">
+    <h1 class="heading"> our <span>fearures</span> </h1>
+
+    <div class="box-container">
+
+        <div class="box">
+            <img src="" alt="">
+                <h3>fresh and local</h3>
+                <p>we provide you fresh milk product at your door steps</p>
+                <a href="#" class="btn">read more</a>
+            </div>
+
+            <div class="box">
+                <img src="" alt="">
+                    <h3>free delivery</h3>
+                    <p>we provide you fresh milk product at your door steps</p>
+                    <a href="#" class="btn">read more</a>
+                </div>
+                
+                <div class="box">
+                    <img src="" alt="">
+                        <h3>easy payment</h3>
+                        <p>we provide you fresh milk product at your door steps</p>
+                        <a href="#" class="btn">read more</a>
+                    </div>
+            
+        </div>
+    </div>
+</section>
+
+<!--products section start-->
+<section class="products" id="products">
+    
+    <h1 class="heading"> our <span>products</span></h1>
+
+    <div class="swiper product-slider">
+
+        <div class="swiper-wrapper">
+
+            <div class="swiper-slide box">
+                <img src="img/002088234-1.webp" alt="">
+                <h3>Yougurt</h3>
+                <div class="price">Rs 60/-</div>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <a href="#" class="btn">add to cart</a>
+            </div>
+
+            <div class="swiper-slide box">
+                <img src="img/milk.jpg" alt="">
+                <h3>milk</h3>
+                <div class="price">Rs 60/-</div>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <a href="#" class="btn">add to cart</a>
+            </div>
+
+            <div class="swiper-slide box">
+                <img src="img/ice cream.jpg" alt="">
+                <h3>ice-cream</h3>
+                <div class="price">Rs 60/-</div>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <a href="#" class="btn">add to cart</a>
+            </div>
+
+            <div class="swiper-slide box">
+                <img src="img/ghee.jpg" alt="">
+                <h3>ghee</h3>
+                <div class="price">Rs 60/-</div>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <a href="#" class="btn">add to cart</a>
+            </div>
+
+        </div>
+
+    </div>
+
+    <div class="swiper product-slider">
+
+        <div class="swiper-wrapper">
+
+            <div class="swiper-slide box">
+                <img src="" alt="">
+                <h3>cookies5</h3>
+                <div class="price">Rs 60/-</div>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <a href="#" class="btn">add to cart</a>
+            </div>
+
+            <div class="swiper-slide box">
+                <img src="" alt="">
+                <h3>cookies6</h3>
+                <div class="price">Rs 60/-</div>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <a href="#" class="btn">add to cart</a>
+            </div>
+
+            <div class="swiper-slide box">
+                <img src="" alt="">
+                <h3>puff7</h3>
+                <div class="price">Rs 60/-</div>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <a href="#" class="btn">add to cart</a>
+            </div>
+
+            <div class="swiper-slide box">
+                <img src="" alt="">
+                <h3>yougurt8</h3>
+                <div class="price">Rs 60/-</div>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <a href="#" class="btn">add to cart</a>
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+<!--categories-->
+
+<section class="categories" id="categories">
+    <h1 class="heading"> product <span>categories</span></h1>
+
+    <div class="box-container">
+
+        <div class="box">
+            <img src="img/milk.jpg" alt="">
+            <h3>milk products</h3>
+            <a href="#" class="btn">shop now</a>
+        </div>
+
+        <div class="box">
+            <img src="img/cookies.jpg" alt="">
+            <h3>cookies</h3>
+            <a href="#" class="btn">shop now</a>
+        </div>
+
+        <div class="box">
+            <img src="img/bread.jpg" alt="">
+            <h3>breads</h3>
+            <a href="#" class="btn">shop now</a>
+        </div>
+
+    </div>
+
+</section>
+
+<!--review start-->
+
+<section class="review" id="review">
+    <h1 class="heading">customer's <span>review</span></h1>
+
+    <div class="swiper review-slider">
+
+        <div class="swiper-wrapper">
+
+            <div class="swiper-slide box">
+                <img src="img/customer1.jfif" alt="">
+                <P>good products and healthy</P>
+                <h3>ram</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+            </div>
+
+            <div class="swiper-slide box">
+                <img src="img/customer2.jfif" alt="">
+                <P>good products and healthy</P>
+                <h3>ram</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+            </div>
+
+            <div class="swiper-slide box">
+                <img src="img/customer3.jfif" alt="">
+                <P>good products and healthy</P>
+                <h3>ram</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+            </div>
+
+            <div class="swiper-slide box">
+                <img src="img/customer4.jfif" alt="">
+                <P>good products and healthy</P>
+                <h3>tina</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+<!--blogs start-->
+
+<section class="blogs" id="blogs">
+
+    <h1 class="heading"> our <span>blogs</span></h1>
+
+    <div class="box-container">
+
+        <div class="box">
+            <img src="" alt="">
+            <div class="content">
+                <div class="icons">
+                    <a href="#"> <i class="fas fa-user"></i> by user</a>
+                    <a href="#"> <i class="fas fa-calender"></i> 1st jan 2021</a>
+                </div>
+                <h3>fresh and healthy products</h3>
+                <p>i love these products</p>
+                <a href="#" class="btn">read more</a>
+            </div>
+        </div>
+
+        <div class="box">
+            <img src="" alt="">
+            <div class="content">
+                <div class="icons">
+                    <a href="#"> <i class="fas fa-user"></i> by user</a>
+                    <a href="#"> <i class="fas fa-calender"></i> 1st jan 2021</a>
+                </div>
+                <h3>fresh and healthy products</h3>
+                <p>i love these products</p>
+                <a href="#" class="btn">read more</a>
+            </div>
+        </div>
+
+        <div class="box">
+            <img src="" alt="">
+            <div class="content">
+                <div class="icons">
+                    <a href="#"> <i class="fas fa-user"></i> by user</a>
+                    <a href="#"> <i class="fas fa-calender"></i> 1st jan 2021</a>
+                </div>
+                <h3>fresh and healthy products</h3>
+                <p>i love these products</p>
+                <a href="#" class="btn">read more</a>
+            </div>
+        </div>
+        
+
+    </div>
+</section>
+
+<!--footer start-->
+
+<section class="footer">
+
+        <div class="box-container">
+
+            <div class="box">
+                <h3> groco <i class="fas fa-shopping-basket"></i></h3>
+                <p>we provide you fresh milk product at your door steps</p>
+                <div class="share">
+                    <a href="#" class="fab fa-facebook-f"></a>
+                    <a href="#" class="fab fa-instagram"></a>
+                </div>
+
+            <div class="box">
+                <h3>contact info</h3>
+                <a href="#" class="links"> <i class="fas fa-phone"></i> 9866060727</a>
+                <a href="#" class="links"> <i class="fas fa-envelope"></i> thapamgr4.bt@gmail.com</a>
+                <a href="#" class="links"> <i class="fas fa-map-marker-alt"></i> chakrapath, kathmandu</a>
+            </div>
+
+            <div class="box">
+                <h3>quick links</h3>
+                <a href="#" class="links"> <i class="fas fa-arrow-right"></i> home</a>
+                <a href="#" class="links"> <i class="fas fa-arrow-right"></i> fearures</a>
+                <a href="#" class="links"> <i class="fas fa-arrow-right"></i> products</a>
+                <a href="#" class="links"> <i class="fas fa-arrow-right"></i> categories</a>
+                <a href="#" class="links"> <i class="fas fa-arrow-right"></i> review</a>
+                <a href="#" class="links"> <i class="fas fa-arrow-right"></i> blogs</a>
+            </div>
+
+            <div class="box">
+                <h3>newsletter</h3>
+                <P>subsribe for lastest updates</P>
+                <input type="email" placeholder="your email" class="email">
+                <input type="submit" placeholder="subsribe" class="btn">
+                <img src="" class="payment-img" alt="">
+        </div>
+
+    </div>
+
+    <div class="credit"> created by <span> buddha thapa </span> </div>
+
+   
+</section>
+
+
+
+<script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+
+<!--link js-->
+    <script src="app.js"></script>
+    </body>
+</html>
+
